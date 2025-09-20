@@ -1,0 +1,16 @@
+﻿CustomerId,CustomerName,ProductName,QuantityOrdered
+CUST001,Anna Andersson,Laptop Dell XPS,2
+CUST002,Björn Larsson,Trådlös mus,3
+CUST003,Cecilia Nilsson,iPhone 15,1
+CUST004,David Eriksson,Office-stol,2
+CUST005,Emma Johansson,Penna,50
+CUST006,Fredrik Petersson,Samsung Galaxy S24,1
+CUST007,Gunilla Svensson,Kaffemugg,5
+CUST008,Henrik Gustafsson,Laptop Dell XPS,15
+CUST009,Ingrid Lindberg,Skrivbord,1
+CUST010,Johan Olsson,Mekaniskt tangentbord,2
+CUST011,Karin Persson,Termosflaska,4
+CUST012,Lars Mattsson,iPhone 15,10
+CUST013,Maria Karlsson,Bokhylla,2
+CUST014,Nils Jansson,Häftapparat,1
+CUST015,Olivia Bengtsson,Tallrik-set,3
