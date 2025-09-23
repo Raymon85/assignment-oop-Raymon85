@@ -15,13 +15,13 @@ Jag har valt alternativet med **automatisk filhantering**, där uppdaterad lager
 läggs till eller lagret fylls på.
 
 ## Skärmbild
-![Program i körning](screenshot.png)  
-> Byt ut "screenshot.png" med din faktiska skärmbildsfil i projektets rotmapp.
+![Program i körning](SS.Raymon)  
+
 
 ## Instruktioner för att köra programmet
 1. **Kloning av projektet**
-   ```bash
-   git clone https://github.com/ditt-användarnamn/ditt-repo.git
+  
+   git clone https://github.com/Raymon85/assignment-oop-Raymon85.git
 
  ## Starta programmet
 1.	Öppna Lagerhanteringssystem.sln eller projektmappen.
@@ -59,16 +59,16 @@ Smarta uppdateringar: programmet laddar alltid den senaste lagerfilen (inventory
 
 ## Filstruktur
 projektmapp/
+├── Data/
+│   ├── inventory.csv
+│   ├── inventory_updated.csv
+│   └── orders.csv
 ├── Program.cs
 ├── Product.cs
 ├── Order.cs
 ├── InventoryManager.cs
 ├── README.md
 ├── reflection.md
-└── Data/
-    ├── inventory.csv
-    ├── inventory_updated.csv
-    └── orders.csv
 
 
 ## Teknisk information
@@ -82,6 +82,5 @@ Utvecklingsmiljö: Visual Studio / VS Code
 2. Uppdatera README med din privata fork-länk.
 
 ## Länkar
-. GitHub Repository: https://github.com/orgs/Campus-Molndal-CLO25/repositories/assignment-oop-[ditt-username]
-. Din privata fork: (uppdatera denna länk efter fork)
-. Kurshemsida: [lägg till länk om relevant]
+. GitHub Repository: https://github.com/Raymon85/assignment-oop-Raymon85
+. Din privata fork: https://github.com/Raymon85/assignment-oop-Raymon85/fork

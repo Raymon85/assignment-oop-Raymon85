@@ -46,18 +46,24 @@ Jag har arbetat med att hålla koden modulär och läsbar:
 
 - **Namngivning:** Klasser och metoder har tydliga namn (`InventoryManager`, `LoadProductsFromCsv`, `ProcessOrders`) som 
   beskriver exakt vad de gör.  
+
 - **Tydligt ansvar:** `Product` hanterar endast produktinformation och lagerstatus, `Order` innehåller endast orderdata,
   medan `InventoryManager` ansvarar för logiken kring lager och ordrar.  
-- **Metoder för att undvika upprepning:** Metoder som `SaveUpdatedProductsToCsv` och `CanFulfillOrder` används flera gånger
+
+- - **Metoder för att undvika upprepning:** Metoder som `SaveUpdatedProductsToCsv` och `CanFulfillOrder` används flera gånger
   för att undvika duplicerad kod.  
-- **Kommentarer:** Jag har kommenterat viktiga delar av koden, t.ex. CSV-läsning, orderbearbetning och filhantering, 
+
+- - **Kommentarer:** Jag har kommenterat viktiga delar av koden, t.ex. CSV-läsning, orderbearbetning och filhantering, 
   så att det är tydligt för andra som läser koden.
 
 **Konkreta exempel:**
+
 - Exempel på tydligt ansvar: `Product`-klassen ansvarar endast för att hålla reda på en produkts tillstånd (namn, kategori,
   pris, antal), medan `InventoryManager` ansvarar för att hantera lagerlogik och ordrar.  
+
 - Exempel på undvikande av upprepning: Jag skapade metoden `CanFulfillOrder` som används både vid bearbetning av order och
   vid validering av lagersaldo.  
+
 - Exempel på tydliga namn: Jag använde namn som `QuantityOrdered` och `ProductName` istället för generiska namn som `x` 
   eller `y` för att göra koden mer läsbar.
 
