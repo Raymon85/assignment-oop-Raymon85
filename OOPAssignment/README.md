@@ -15,7 +15,7 @@ Jag har valt alternativet med **automatisk filhantering**, där uppdaterad lager
 läggs till eller lagret fylls på.
 
 ## Skärmbild
-![Program i körning](SS.Raymon)  
+Program i körning (SS.Raymon)  
 
 
 ## Instruktioner för att köra programmet
