@@ -1,11 +1,12 @@
 ﻿# Reflektion över Lagerhanteringssystem
 
-VIKTIGT: Alla placeholders är ersatta med mina egna svar.
 
----
 
 ## Planering
-Jag började med att planera projektet genom att definiera de klasser som behövdes: `Product`, `Order` och `InventoryManager`. Jag beslutade att använda CSV-filer för lagring av produkter och kundordrar. Sedan skapade jag en meny i konsolen för att användaren enkelt ska kunna hantera lager och bearbeta ordrar. Jag ritade även en enkel flödesskiss över hur orderbearbetning och lageruppdatering skulle ske.
+Jag började med att planera projektet genom att definiera de klasser som behövdes: `Product`, `Order` och `InventoryManager`.
+Jag beslutade att använda CSV-filer för lagring av produkter och kundordrar. Sedan skapade jag en meny i konsolen för att 
+användaren enkelt ska kunna hantera lager och bearbeta ordrar. Jag ritade även en enkel flödesskiss över hur orderbearbetning
+och lageruppdatering skulle ske.
 
 ---
 
